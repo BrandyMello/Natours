@@ -1,0 +1,57 @@
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    /* make invisible */
+    transform: translateX(-10rem);
+    /* x axis left to right, neg value for left to right */
+  }
+
+  80% {
+    transform: translateX(1rem);
+    /* lets it pass initial spot and spring back */
+  }
+
+  100% {
+    opacity: 1;
+    /* make visible */
+    transform: translateX(0);
+    /* puts it at original design */
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    /* make invisible */
+    transform: translateX(10rem);
+    /* x axis left to right, neg value for left to right */
+  }
+
+  80% {
+    transform: translateX(-1rem);
+    /* lets it pass initial spot and spring back */
+  }
+
+  100% {
+    opacity: 1;
+    /* make visible */
+    transform: translate(0);
+    /* puts it at original design */
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    /* make invisible */
+    transform: translateY(3rem);
+    /* x axis left to right, neg value for left to right */
+  }
+
+  100% {
+    opacity: 1;
+    /* make visible */
+    transform: translate(0);
+    /* puts it at original design */
+  }
+}
