@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  //this defines what 1rem is so overall setting
+  font-size: 62.5%;
+  /* This allows the use of rem based on the root font-size and all other measuements rely on this measurement chaining size changes 1rem = 10px*/
+}
+
+body {
+  box-sizing: border-box;
+}
