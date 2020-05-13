@@ -8,6 +8,7 @@
     position: absolute;
     z-index: 10;
     transition: all .2s;
+    //this give a padding between the image or content and the border-like outline
     outline-offset: 2rem;
 
     &--p1 {
@@ -26,6 +27,7 @@
     }
 
     &:hover {
+      //this is the outline feature that works like a border, but you can add an offset with this property see the composition__photo selector above
       outline: 1.5rem solid $color-primary;
       transform: scale(1.05) translate(-.5rem);
       box-shadow: 0 1.5rem 4rem rgba($color-black, .5);
@@ -35,6 +37,7 @@
   }
 
   // compostion:hover compostion__photo:not(:hover) 
+  // so when hovering the container holding the photos, we select the photos that are not being hovered and scale them smaller
   &:hover &__photo:not(:hover) {
     transform: scale(.95);
   }
