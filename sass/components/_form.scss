@@ -79,10 +79,7 @@
       height: 1.3rem;
       width: 1.3rem;
       border-radius: 50%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      @include centerHorizantalVertical;
       background-color: $color-primary;
       opacity: 0;
       transition: opacity .2s;
@@ -90,7 +87,7 @@
   }
 
   //we are selecting the radio input and its sibling and the button of the sibling after
-  &__radio-input:checked ~ &__radio-label &__radio-button::after {
-      opacity: 1;
+  &__radio-input:checked~&__radio-label &__radio-button::after {
+    opacity: 1;
   }
 }
