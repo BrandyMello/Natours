@@ -3,7 +3,7 @@ Advanced CSS Udemy Course: https://www.udemy.com/course/advanced-css-and-sass/
 
 Taught and designed by: [Jonas Schmedtmann](https://www.udemy.com/user/jonasschmedtmann/) 
 
-Here is the live link: [Natours](https://brandymello.github.io/Natours/) 
+Here is my live link: [Natours](https://brandymello.github.io/Natours/) 
 
 
 ![Reload animation](https://media.giphy.com/media/hvSoSI8VFfvclfXw7i/giphy.gif). 
